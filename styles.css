@@ -1,0 +1,124 @@
+/* Google Font */
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  background-image: url(green.bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+header {
+  background-color: rgb(109, 185, 109);
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #dfffe3;
+}
+
+nav .btn {
+  background-color: #ffffff;
+  color: rgb(58, 133, 58);
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav .btn:hover {
+  background-color: #dfffe3;
+  color: rgb(66, 129, 66);
+}
+
+section.hero {
+  padding: 80px 40px;
+  background-color: #e8f5e9;
+  text-align: center;
+}
+
+section.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: rgb(94, 165, 94);
+}
+
+section.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+section.hero .btn {
+  background-color: rgb(60, 110, 60);
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+section.hero .btn:hover {
+  background-color: rgb(125, 192, 125);
+}
+
+/* About and Contact Page Styling */
+section {
+  padding: 40px;
+}
+
+section h2 {
+  font-size: 30px;
+  color: transparent;
+  margin-bottom: 20px;
+}
+
+section p,
+section ul {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+}
+
+
